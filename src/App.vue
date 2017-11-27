@@ -56,6 +56,7 @@
           reader.readAsDataURL(files[0]);
         })
         .catch((error) => {
+          alert(error)
           console.log(error) // catch your error
         });
       },
