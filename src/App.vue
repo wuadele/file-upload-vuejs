@@ -10,7 +10,7 @@
           <img :src="imageSrc" class="image">
           <span class="sub-text"><a :href="url_s" target="_blank">Small</a> | <a :href="url_m" target="_blank">Medium</a> | <a :href="url_l" target="_blank">Large</a></span>
           <span class="btn btn-default btn-file">
-              Browse <input @change="uploadImage" type="file" name="image" accept="image/*">
+              Select And Upload <input @change="uploadImage" type="file" name="image" accept="image/*">
           </span>
         </div>
     </div>
